@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        
+
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+           /* flex-direction: row;*/
+           gap:10px;
+           
+        }
+        .single-img{
+            display: flex;
+            flex:30%;
+            
+        }
+        @media screen and (max-width:600px){
+        .single-img{
+            display: flex;
+            flex:48%;
+        }
+        }
+        @media screen and (max-width:400px){
+        .single-img{
+            display: flex;
+            flex:95%;
+        }
+        }
+    
+
+    </style>
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>               
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+            <div class="single-img"><img src=download.jpg width=400px></div>
+        </div>
+    </body>
+
+</html>>
